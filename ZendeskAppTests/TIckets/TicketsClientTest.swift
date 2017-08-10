@@ -22,4 +22,18 @@ class TicketsClientTest: XCTestCase {
         // Put teardown code here. This method is called after the invocation of each test method in the class.
         super.tearDown()
     }
+    
+    func testTicketsClient() {
+        let expect = expectation(description: "Should return tickets")
+        
+        ticketClient.fetchTickets(success: { (tickets) in
+            XCTAssertNotNil(tickets, "tickets should not be nil")
+            expect.fulfill()
+        }) { (error) in
+            XCTAssertNotNil(error, "error should not be nil")
+            expect.fulfill()
+        }
+        
+        waitForExpectations(timeout: 10, handler: nil)
+    }
 }

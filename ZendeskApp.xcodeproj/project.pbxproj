@@ -15,9 +15,10 @@
 		0222F6561F3B4BA100FC8091 /* TicketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6551F3B4BA100FC8091 /* TicketClient.swift */; };
 		0222F6591F3B4CBD00FC8091 /* TicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6581F3B4CBD00FC8091 /* TicketsViewModel.swift */; };
 		025B7FB01F3C4F65004594D4 /* ZendeskColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B7FAF1F3C4F65004594D4 /* ZendeskColors.swift */; };
+		025B7FB11F3C51B6004594D4 /* DefaultClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6521F3B4AFA00FC8091 /* DefaultClient.swift */; };
+		025B7FB21F3C520B004594D4 /* TicketsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02728BF41F3B57D60067DFC6 /* TicketsResponse.swift */; };
 		02728BF51F3B57D60067DFC6 /* TicketsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02728BF41F3B57D60067DFC6 /* TicketsResponse.swift */; };
 		02C3BA1C1F3B5ED300BB76E4 /* TicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3BA1B1F3B5ED300BB76E4 /* TicketsTableViewCell.swift */; };
-		02C3BA201F3B665400BB76E4 /* TicketsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3BA1F1F3B665400BB76E4 /* TicketsTest.swift */; };
 		02C3BA221F3B669100BB76E4 /* TicketsClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3BA211F3B669100BB76E4 /* TicketsClientTest.swift */; };
 		02C3BA231F3B671E00BB76E4 /* TicketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6551F3B4BA100FC8091 /* TicketClient.swift */; };
 		02F564091F3B4F8F009063FF /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6571F3B4CA900FC8091 /* TicketsTableViewController.swift */; };
@@ -51,7 +52,6 @@
 		025B7FAF1F3C4F65004594D4 /* ZendeskColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZendeskColors.swift; sourceTree = "<group>"; };
 		02728BF41F3B57D60067DFC6 /* TicketsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsResponse.swift; sourceTree = "<group>"; };
 		02C3BA1B1F3B5ED300BB76E4 /* TicketsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableViewCell.swift; sourceTree = "<group>"; };
-		02C3BA1F1F3B665400BB76E4 /* TicketsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTest.swift; sourceTree = "<group>"; };
 		02C3BA211F3B669100BB76E4 /* TicketsClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsClientTest.swift; sourceTree = "<group>"; };
 		08CEEF06FB1C1B555848B449 /* Pods-ZendeskApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskApp/Pods-ZendeskApp.debug.xcconfig"; sourceTree = "<group>"; };
 		102F84E7C3798DDE2947D766 /* Pods-ZendeskAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskAppTests/Pods-ZendeskAppTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -212,7 +212,6 @@
 		02C3BA1E1F3B661D00BB76E4 /* TIckets */ = {
 			isa = PBXGroup;
 			children = (
-				02C3BA1F1F3B665400BB76E4 /* TicketsTest.swift */,
 				02C3BA211F3B669100BB76E4 /* TicketsClientTest.swift */,
 			);
 			path = TIckets;
@@ -457,7 +456,8 @@
 			files = (
 				02C3BA221F3B669100BB76E4 /* TicketsClientTest.swift in Sources */,
 				02C3BA231F3B671E00BB76E4 /* TicketClient.swift in Sources */,
-				02C3BA201F3B665400BB76E4 /* TicketsTest.swift in Sources */,
+				025B7FB11F3C51B6004594D4 /* DefaultClient.swift in Sources */,
+				025B7FB21F3C520B004594D4 /* TicketsResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
