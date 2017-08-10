@@ -11,12 +11,15 @@
 		0222F62D1F3B483500FC8091 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0222F62B1F3B483500FC8091 /* Main.storyboard */; };
 		0222F62F1F3B483500FC8091 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0222F62E1F3B483500FC8091 /* Assets.xcassets */; };
 		0222F6321F3B483500FC8091 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0222F6301F3B483500FC8091 /* LaunchScreen.storyboard */; };
-		0222F63D1F3B483500FC8091 /* ZendeskAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F63C1F3B483500FC8091 /* ZendeskAppTests.swift */; };
 		0222F6531F3B4AFA00FC8091 /* DefaultClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6521F3B4AFA00FC8091 /* DefaultClient.swift */; };
 		0222F6561F3B4BA100FC8091 /* TicketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6551F3B4BA100FC8091 /* TicketClient.swift */; };
 		0222F6591F3B4CBD00FC8091 /* TicketsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6581F3B4CBD00FC8091 /* TicketsViewModel.swift */; };
+		025B7FB01F3C4F65004594D4 /* ZendeskColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 025B7FAF1F3C4F65004594D4 /* ZendeskColors.swift */; };
 		02728BF51F3B57D60067DFC6 /* TicketsResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02728BF41F3B57D60067DFC6 /* TicketsResponse.swift */; };
 		02C3BA1C1F3B5ED300BB76E4 /* TicketsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3BA1B1F3B5ED300BB76E4 /* TicketsTableViewCell.swift */; };
+		02C3BA201F3B665400BB76E4 /* TicketsTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3BA1F1F3B665400BB76E4 /* TicketsTest.swift */; };
+		02C3BA221F3B669100BB76E4 /* TicketsClientTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02C3BA211F3B669100BB76E4 /* TicketsClientTest.swift */; };
+		02C3BA231F3B671E00BB76E4 /* TicketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6551F3B4BA100FC8091 /* TicketClient.swift */; };
 		02F564091F3B4F8F009063FF /* TicketsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0222F6571F3B4CA900FC8091 /* TicketsTableViewController.swift */; };
 		11041995B8943401F140E932 /* Pods_ZendeskAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C68B53FAA917CB013658419 /* Pods_ZendeskAppTests.framework */; };
 		A7A5C537F807FA8378F85983 /* Pods_ZendeskApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35B538991DAC6ED3A2D120E /* Pods_ZendeskApp.framework */; };
@@ -40,14 +43,16 @@
 		0222F6311F3B483500FC8091 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0222F6331F3B483500FC8091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0222F6381F3B483500FC8091 /* ZendeskAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZendeskAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		0222F63C1F3B483500FC8091 /* ZendeskAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZendeskAppTests.swift; sourceTree = "<group>"; };
 		0222F63E1F3B483500FC8091 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0222F6521F3B4AFA00FC8091 /* DefaultClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultClient.swift; sourceTree = "<group>"; };
 		0222F6551F3B4BA100FC8091 /* TicketClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketClient.swift; sourceTree = "<group>"; };
 		0222F6571F3B4CA900FC8091 /* TicketsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableViewController.swift; sourceTree = "<group>"; };
 		0222F6581F3B4CBD00FC8091 /* TicketsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsViewModel.swift; sourceTree = "<group>"; };
+		025B7FAF1F3C4F65004594D4 /* ZendeskColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZendeskColors.swift; sourceTree = "<group>"; };
 		02728BF41F3B57D60067DFC6 /* TicketsResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsResponse.swift; sourceTree = "<group>"; };
 		02C3BA1B1F3B5ED300BB76E4 /* TicketsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTableViewCell.swift; sourceTree = "<group>"; };
+		02C3BA1F1F3B665400BB76E4 /* TicketsTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsTest.swift; sourceTree = "<group>"; };
+		02C3BA211F3B669100BB76E4 /* TicketsClientTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsClientTest.swift; sourceTree = "<group>"; };
 		08CEEF06FB1C1B555848B449 /* Pods-ZendeskApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskApp/Pods-ZendeskApp.debug.xcconfig"; sourceTree = "<group>"; };
 		102F84E7C3798DDE2947D766 /* Pods-ZendeskAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZendeskAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZendeskAppTests/Pods-ZendeskAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1C68B53FAA917CB013658419 /* Pods_ZendeskAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZendeskAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -99,6 +104,7 @@
 		0222F6261F3B483500FC8091 /* ZendeskApp */ = {
 			isa = PBXGroup;
 			children = (
+				027A97611F3C4E7D008C654E /* Extensions */,
 				0222F6511F3B4AEF00FC8091 /* Client */,
 				0222F64E1F3B487A00FC8091 /* Model */,
 				0222F6491F3B484900FC8091 /* Resources */,
@@ -112,7 +118,7 @@
 		0222F63B1F3B483500FC8091 /* ZendeskAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				0222F63C1F3B483500FC8091 /* ZendeskAppTests.swift */,
+				02C3BA1E1F3B661D00BB76E4 /* TIckets */,
 				0222F63E1F3B483500FC8091 /* Info.plist */,
 			);
 			path = ZendeskAppTests;
@@ -187,12 +193,29 @@
 			path = Ticket;
 			sourceTree = "<group>";
 		};
+		027A97611F3C4E7D008C654E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				025B7FAF1F3C4F65004594D4 /* ZendeskColors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		02C3BA1D1F3B5FD900BB76E4 /* Cell */ = {
 			isa = PBXGroup;
 			children = (
 				02C3BA1B1F3B5ED300BB76E4 /* TicketsTableViewCell.swift */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		02C3BA1E1F3B661D00BB76E4 /* TIckets */ = {
+			isa = PBXGroup;
+			children = (
+				02C3BA1F1F3B665400BB76E4 /* TicketsTest.swift */,
+				02C3BA211F3B669100BB76E4 /* TicketsClientTest.swift */,
+			);
+			path = TIckets;
 			sourceTree = "<group>";
 		};
 		0600B704FD9C902EB4A365A1 /* Pods */ = {
@@ -271,9 +294,11 @@
 				TargetAttributes = {
 					0222F6231F3B483500FC8091 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 					};
 					0222F6371F3B483500FC8091 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						TestTargetID = 0222F6231F3B483500FC8091;
 					};
 				};
@@ -419,6 +444,7 @@
 				02728BF51F3B57D60067DFC6 /* TicketsResponse.swift in Sources */,
 				0222F6561F3B4BA100FC8091 /* TicketClient.swift in Sources */,
 				0222F6591F3B4CBD00FC8091 /* TicketsViewModel.swift in Sources */,
+				025B7FB01F3C4F65004594D4 /* ZendeskColors.swift in Sources */,
 				02C3BA1C1F3B5ED300BB76E4 /* TicketsTableViewCell.swift in Sources */,
 				02F564091F3B4F8F009063FF /* TicketsTableViewController.swift in Sources */,
 				0222F6281F3B483500FC8091 /* AppDelegate.swift in Sources */,
@@ -429,7 +455,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0222F63D1F3B483500FC8091 /* ZendeskAppTests.swift in Sources */,
+				02C3BA221F3B669100BB76E4 /* TicketsClientTest.swift in Sources */,
+				02C3BA231F3B671E00BB76E4 /* TicketClient.swift in Sources */,
+				02C3BA201F3B665400BB76E4 /* TicketsTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -571,11 +599,13 @@
 			baseConfigurationReference = 08CEEF06FB1C1B555848B449 /* Pods-ZendeskApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 65X7DX2885;
 				INFOPLIST_FILE = ZendeskApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eltonmendes.ZendeskApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -586,6 +616,7 @@
 			baseConfigurationReference = BF7F7BEFC77412CD94E941FE /* Pods-ZendeskApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 65X7DX2885;
 				INFOPLIST_FILE = ZendeskApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -602,11 +633,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 65X7DX2885;
 				INFOPLIST_FILE = ZendeskAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eltonmendes.ZendeskAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZendeskApp.app/ZendeskApp";
@@ -619,6 +652,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 65X7DX2885;
 				INFOPLIST_FILE = ZendeskAppTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";

@@ -16,6 +16,7 @@ class TicketsTableViewCell: UITableViewCell {
     @IBOutlet weak var ticketSubjectLabel: UILabel!
     
     func setupCellWithTicket(ticket : Ticket) {
+        backgroundColor = UIColor.zendeskGreyColor()
         ticketNumberLabel.text = String(ticket.id)
         ticketStatusLabel.text = ticket.status
         ticketDescriptionLabel.text = ticket.description

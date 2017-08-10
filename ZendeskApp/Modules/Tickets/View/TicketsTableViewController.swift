@@ -14,15 +14,24 @@ class TicketsTableViewController: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        setupLayout()
+        fetchTickets()
+    }
+    
+    func setupLayout() {
+        navigationController?.navigationBar.prefersLargeTitles = true
+    }
+    
+    func refreshTableviewIfNeeded() {
+        tableView.reloadData()
+    }
+    
+    func fetchTickets() {
         viewModel.fetchTickets(success: { (tickets) in
             self.refreshTableviewIfNeeded()
         }) { (error) in
             self.refreshTableviewIfNeeded()
         }
-    }
-    
-    func refreshTableviewIfNeeded() {
-        tableView.reloadData()
     }
 }
 
